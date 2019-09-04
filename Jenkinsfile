@@ -14,6 +14,7 @@ pipeline {
     }
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+        string(name: 'DEPLOY_TO', defaultValue: 'production', description: 'env?')
 
         text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
 

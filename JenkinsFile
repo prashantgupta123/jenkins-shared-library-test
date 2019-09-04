@@ -1,0 +1,10 @@
+#!groovy
+
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            echo "Running build Automation"
+        }
+    }
+}

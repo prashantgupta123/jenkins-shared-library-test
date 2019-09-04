@@ -16,7 +16,6 @@ pipeline {
             steps {
                 sh 'echo "GITHUB user is $GITHUB_USR"'
                 sh 'echo "GITHUB password is $GITHUB_PSW"'
-                sh 'curl -u $GITHUB https://myservice.example.com'
             }
         }
     }

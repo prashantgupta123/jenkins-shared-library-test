@@ -1,10 +1,17 @@
+#!groovy
+
 pipeline {
     agent any
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello world!"'
+                echo "Hello world!"
             }
+        }
+    }
+    post {
+        always {
+            echo 'I will always say Hello again!'
         }
     }
 }

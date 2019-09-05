@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e64db1f7-9017-4c2c-805c-675450dbe253" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JenkinsFile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,17 +37,28 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="97">
+              <caret line="73" column="9" selection-start-line="27" selection-start-column="8" selection-end-line="73" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Ready For Build</find>
+      <find>environment</find>
+      <find>failFa</find>
+      <find>script</find>
+      <find>node</find>
+      <find>starting</find>
+      <find>ubuntu</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -444,6 +455,7 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/vars/sayHello.groovy" />
         <option value="$PROJECT_DIR$/JenkinsFile" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
   </component>
@@ -466,6 +478,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -482,11 +496,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567604498006" />
@@ -547,7 +560,46 @@
       <workItem from="1567589455721" duration="650000" />
       <workItem from="1567590898181" duration="1023000" />
       <workItem from="1567591947821" duration="5884000" />
+      <workItem from="1567611404990" duration="4283000" />
+      <workItem from="1567660394384" duration="46000" />
+      <workItem from="1567683723841" duration="148000" />
     </task>
+    <task id="LOCAL-00001" summary="Added when pipeline">
+      <created>1567612144525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567612144525</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added when pipeline">
+      <created>1567612345195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567612345195</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added before agent pipeline">
+      <created>1567612555556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567612555556</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Parallel stage pipeline">
+      <created>1567612833187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567612833187</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Script pipeline">
+      <created>1567613708576</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567613708576</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -556,22 +608,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9844000" />
+    <option name="totallyTimeSpent" value="14321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="25" width="1327" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27088213" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27946916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
@@ -580,11 +629,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32881355" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32881355" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.22789116" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" />
+      <window_info anchor="bottom" id="SonarLint" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -602,6 +655,13 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added when pipeline" />
+    <MESSAGE value="Added before agent pipeline" />
+    <MESSAGE value="Added Parallel stage pipeline" />
+    <MESSAGE value="Added Script pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Script pipeline" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vars/sayHello.groovy">
@@ -631,10 +691,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile1.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="441" column="48" selection-start-line="441" selection-start-column="48" selection-end-line="441" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!block;n#validateBuild#0" />
+            <element signature="e#2179#2522#0" />
+            <element signature="n#!!block;n#killall_jobs#0" />
+            <element signature="n#!!block;n#uploadE2ELogs#0" />
+            <element signature="e#5071#6142#0" />
+            <element signature="e#6159#7033#0" />
+            <element signature="e#7046#7428#0" />
+            <element signature="e#7493#9092#0" />
+            <element signature="e#9210#11953#0" />
+            <element signature="e#11672#11935#0" />
+            <element signature="e#11987#14667#0" />
+            <element signature="e#14708#17457#0" />
+            <element signature="e#20367#21768#0" />
+            <element signature="e#21850#28485#0" />
+            <element signature="e#22378#23575#0" />
+            <element signature="e#28528#29527#0" />
+            <element signature="e#29563#30644#0" />
+            <element signature="e#30754#31988#0" />
+            <element signature="e#46527#47746#0" />
+            <element signature="e#48907#50596#0" />
+            <element signature="e#50662#52146#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="97">
+          <caret line="73" column="9" selection-start-line="27" selection-start-column="8" selection-end-line="73" selection-end-column="9" />
         </state>
       </provider>
     </entry>

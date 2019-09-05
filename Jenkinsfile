@@ -25,7 +25,7 @@ pipeline {
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     }
     stages {
-        /*stage('Build') {
+        stage('Build') {
             steps {
                 echo "Hello world!"
             }
@@ -71,7 +71,7 @@ pipeline {
             steps {
                 echo 'Deploying'
             }
-        }*/
+        }
         stage('Script') {
             steps {
                 echo 'Hello World'
